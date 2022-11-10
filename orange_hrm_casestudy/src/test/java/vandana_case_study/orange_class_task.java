@@ -39,6 +39,7 @@ public class orange_class_task {
 	@Test(enabled=true,priority=1)
 	public void testcase2() throws InterruptedException
 	{	
+		driver.findElement(By.xpath("//*[@class='oxd-main-menu']/li[1]/a")).click();
      List <WebElement> list = driver.findElements(By.tagName("a"));
      System.out.println("total links in the hrm :  "+ list.size());
      for (int i=0; i<list.size(); i++)
