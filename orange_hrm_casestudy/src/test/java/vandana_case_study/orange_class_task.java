@@ -51,8 +51,8 @@ public class orange_class_task {
 	  @Test(enabled=true,priority = 2)
 	  public void testcase3() throws InterruptedException
 	 {
-	 driver.findElements(By.xpath("//*[@class='oxd-icon bi-check oxd-checkbox-input-icon']")).get(8).click();
-	 driver.findElements(By.xpath("//*[@class='oxd-icon bi-trash']")).get(8).click();	
+	 driver.findElements(By.xpath("//*[@class='oxd-icon bi-check oxd-checkbox-input-icon']")).get(2).click();
+	 driver.findElements(By.xpath("//*[@class='oxd-icon bi-trash']")).get(2).click();	
 	 driver.findElement(By.xpath("//*[@class='oxd-button oxd-button--medium oxd-button--label-danger orangehrm-button-margin']")).click();	
 	 Thread.sleep(3000);
      }
